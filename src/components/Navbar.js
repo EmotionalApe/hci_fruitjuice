@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className='flex flex-row space-x-5'>
                 <div>Home</div>
                 <div>About</div>
-                <div>Order</div>
+                <div>Product</div>
                 <div>Testimonials</div>
                 <div>Contact Us</div>
             </div>
