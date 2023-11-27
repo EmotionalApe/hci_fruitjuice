@@ -5,20 +5,15 @@ const Navbar = () => {
     return (
         <div className="bg-[#ffecb2] w-full h-20 text-black flex justify-evenly items-center">
             <div className='font-extrabold text-3xl'>
-                ArtGallery
+                PennyJuice
             </div>
 
             <div className='flex flex-row space-x-5'>
                 <div>Home</div>
                 <div>About</div>
-                <div>Login</div>
-                <div>Sign Up</div>
-
-            </div>
-
-            <div>             
-                    🛒 Cart
-  
+                <div>Order</div>
+                <div>Testimonials</div>
+                <div>Contact Us</div>
             </div>
         </div>
     )
