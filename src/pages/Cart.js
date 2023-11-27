@@ -2,6 +2,7 @@ import React from 'react'
 import CartTable from '../components/CartTable'
 import { useState } from 'react'
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const Cart = () => {
 
@@ -69,6 +70,7 @@ const Cart = () => {
   return (
 
     <div className=''>
+      <Navbar/>
       <div className='text-3xl m-12'>Place Order</div>
 
       <div className='flex flex-row justify-center items-center'>

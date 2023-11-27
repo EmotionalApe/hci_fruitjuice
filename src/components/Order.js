@@ -1,9 +1,12 @@
 import React from 'react'
 import './order.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Order() {
   return (
   <div>
+   <Navbar/>
     <div className="Oheading">Order</div>
         <div className="collection-list" style={{display:'flex', flexWrap:'wrap', width:'100%', alignItems:'center'}}>
             {/* blueberry */}
@@ -77,7 +80,7 @@ function Order() {
                 </div>
              </div>
 
-
+         <Footer/>
 
         </div>
     </div>
