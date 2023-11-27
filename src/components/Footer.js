@@ -7,8 +7,8 @@ function Footer(){
         <>
         <br />
         <br />
-   <div className="footer-container" style={{paddingBottom:'1rem'}}>
-      <div className="footer" style={{paddingBottom:'2rem'}}>
+   <div className="footer-container" style={{paddingBottom:'1rem', backgroundColor:'#ffecb2'}}>
+      <div className="footer" style={{paddingBottom:'2rem', backgroundColor:'#ffecb2', color:'black'}}>
         <div className="footer-row-1">
         <div cclassNamelass="column 1" style={{paddingLeft:"10rem", paddingTop:"2rem"}}>
         <h3 style={{fontSize:'1.5rem', fontWeight:'600', color:'rgba(250, 107, 5, 0.822)'}}>Quick Links </h3>
@@ -30,7 +30,7 @@ function Footer(){
                   <br></br>
                 <span> Email us : pennyjuice123@gmail <br></br></span>
                 <br></br>
-                <span style={{color:'rgb(151, 151, 151)'}}>Feel free to write us about your Experiences and Suggestions</span>
+                <span style={{color:'rgba(250, 107, 5, 0.822)'}}>Feel free to write us about your Experiences and Suggestions</span>
               </ul>
           </div>
           <div className="column 1" style={{paddingLeft:"10rem", paddingTop:"2rem"}}>
@@ -40,7 +40,7 @@ function Footer(){
         </div>
         <div className="footer-row-2">
           <hr></hr>
-          <div className="copyright">
+          <div className="copyright" style={{color:'rgba(250, 107, 5, 0.822)'}}>
             <p> ⓒ All Rights Reserved by <a href="/" style={{color:'grey'}}>PennyJuice Pvt Ltd</a> </p>
           </div>
        </div>
