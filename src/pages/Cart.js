@@ -1,6 +1,7 @@
 import React from 'react'
 import CartTable from '../components/CartTable'
 import { useState } from 'react'
+import Footer from '../components/Footer';
 
 const Cart = () => {
 
@@ -155,6 +156,7 @@ const Cart = () => {
         <div className='ml-10 bg-black text-white p-2 rounded-md'>Checkout</div>
       </div>
 
+      <Footer/>
     </div>
   )
 }
