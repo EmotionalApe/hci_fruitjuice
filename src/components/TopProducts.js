@@ -8,7 +8,7 @@ function TopProducts() {
             {/* blueberry */}
             <div className = "col-md-6 col-lg-4 col-xl-3 p-2 feat" style={{paddingRight:'5rem'}}>
             <div className = "text-center flex flex-col justify-center items-center">
-                <img src = {require('../images/Blueberry.png')} className = "w-100 product-img"/>
+                <img src = {require('../images/Blueberry.png')} className = "w-100 product-img" />
                 <p className = "text-capitalize my-1">Blue berry Juice</p>
                 <br/>  
                 <span className = "fw-bold product-price">₹179900.00</span>
